@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta content="viewport" content="width=device-width, initial-scale=1">
+        <title>Innovate -Infinity Masud Rana</title>
+        <link rel="icon" href="images/icon.ico" >
+        <!--Bootstrap Offline-->
+        <link rel="stylesheet" href="css/bootstrap.css" type="text/css">
+        <link rel="stylesheet" href="css/style.css" type="text/css">
+        <link rel="stylesheet" href="css/animate.css" type="text/css">
+       
+        <!--Bootstrap online  link   
+        <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" />
+          End -->
+        
+    </head>
+    
+    <body data-spy="scroll" data-target=".navbar" data-offset="10">
+
+        <!--Start Navbar-->
+               <nav class="navbar navbar-default navbar-fixed-top" id="navHeader">
+                    <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+                <a href="index.html" class="navbar-brand">
+                      <img src="images/logo.png" alt="Logo">
+                </a>
+            
+            </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav">
+        <li><a href="index.html">Home <span class="sr-only">(current)</span></a></li>
+        <li><a href="about.html">About</a></li>
+        <li class="dropdown active">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Innovate <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="innovate.html">Teach</a></li>
+            <li><a href="innovate.html">Learn</a></li>
+            <li><a href="innovate.html">Earn</a></li>
+          </ul>
+        </li>
+          <li><a href="blog.html">Blog</a></li>
+          <li><a href="contact.html">Contact</a></li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+          
+          <li class="hire"><a href="#" data-toggle="modal" data-target="#hireModal">Hiire Me</a></li>
+        <li class="login"><a href="#" data-toggle="modal" data-target="#loginModal">Log In</a></li>
+          <li class="signup"><a href="#" data-toggle="modal" data-target="#signupModal">Sign Up</a></li>
+      </ul>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>  <!--/navbar-->
+          <!--hire me  Modal-->
+                <div class="container-fluid">
+            
+            <div class="modal  fade" id="hireModal" role="dialog">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                       
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal">&#10007;</button>
+                             <h2 class="text-warning modal-title">Warning</h2>
+                        </div>
+                        <div class="modal-body">
+                          
+                            <p>This will redirected to you a third party website. <a href="https://www.upwork.com/o/profiles/users/_~010ce64ffafca92988/" target="_blank">Click here</a> to go to</p>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="submit" class="close" data-dismiss="modal" >Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div> <!--/Hire me Modal-->
+    <!--Login Modal-->
+                <div class="container-fluid">
+            
+            <div class="modal  fade" id="loginModal" role="dialog">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                       
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal">&#10007;</button> 
+                            <h4 class="modal-title">Log In</h4>
+                        </div>
+                        <div class="modal-body">
+                            <form  class="form-horizontal"role="form">
+                                <div class="form-group">
+                                    <label for="email" class="control-label col-sm-3">Email: </label>
+                                    <div class="col-sm-9">
+                                    <input type="email" class="form-control" id="email" placeholder="Email" required>
+                                    </div>
+                                </div>
+                                 <div class="form-group">
+                                    <label for="pws" class="control-label col-sm-3">Password: </label>
+                                     <div class="col-sm-9">
+                                    <input type="password" class="form-control" id="pws" placeholder="Password" required>
+                                     </div>
+                                </div>
+                                <div class="form-group">
+                                    <div class="col-sm-offset-3 col-sm-9">
+                                        <div class="checkbox">
+                                        <label><input type="checkbox">Remember Me</label>
+                                        </div>
+                                 </div>
+                                </div>
+                            </form>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="submit" class="btn btn-danger" >Log In</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div> <!--/login Modal-->
+        
+        <!--==Sign Up modal=======-->
+        
+         
+                <div class="container-fluid">
+            
+            <div class="modal  fade" id="signupModal" role="dialog">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                       
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal">&#10007;</button> 
+                            <h4 class="modal-title">Sign Up</h4>
+                        </div>
+                        <div class="modal-body">
+                            <form  class="form-horizontal"role="form">
+                                <div class="form-group">
+                                    <label for="usr" class="control-label col-sm-3">Name: </label>
+                                    <div class="col-sm-9">
+                                        <input type="text" class="form-control" id="usr" placeholder="Name">
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <label for="email" class="control-label col-sm-3">Email: </label>
+                                    <div class="col-sm-9">
+                                    <input type="email" class="form-control" id="email" placeholder="Email" required>
+                                    </div>
+                                </div>
+                                 <div class="form-group">
+                                    <label for="pws" class="control-label col-sm-3">Password: </label>
+                                     <div class="col-sm-9">
+                                    <input type="password" class="form-control" id="pws" placeholder="Password" required>
+                                     </div>
+                                </div>
+                                 <div class="form-group">
+                                    <label for="pws" class="control-label col-sm-3">Confirm Password: </label>
+                                     <div class="col-sm-9">
+                                    <input type="password" class="form-control" id="pws" placeholder="Password" required>
+                                     </div>
+                                </div>
+                            </form>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="submit" class="btn btn-danger" >Sign Up</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div> 
+        <!--== / Sign Up modal=======-->
+        
+        
+        <!-- Body-->
+        <div class="container">
+            <div class="row">
+                    <div class="col-md-8">
+                <div class="clean">
+                        <div class="media">
+                            <a href="#" class="pull-left">
+                                <img src="images/settings.png" class="media-object img-responsive">
+                            </a>
+                            <div class="media-body">
+                                <h2 class="media-heading">Settings</h2>
+                                 <p class="text-justify">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
+                                    Ipsum has been the industry's standard dummy text ever since the 1500s, when an
+                                    unknown printer took a galley of type and scrambled it to make a type specimen
+                                    book. It has survived not only five centuries, but also the leap into electronic typesetting,
+                                    remaining essentially unchanged. It was popularised in the 1960s with the release
+                                    of Letraset sheets containing Lorem Ipsum passages, and more recently with
+                                    desktop publishing software like Aldus PageMaker including versions of Lorem
+                                    Ipsum.</p>
+                            </div>
+                        </div> <!--/media-->
+                         <div class="media">
+                            <a href="#" class="pull-right">
+                                <img src="images/compass.png" class="media-object img-responsive">
+                            </a>
+                            <div class="media-body">
+                                <h2 class="media-heading">Compass</h2>
+                                 <p class="text-justify">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
+                                    Ipsum has been the industry's standard dummy text ever since the 1500s, when an
+                                    unknown printer took a galley of type and scrambled it to make a type specimen
+                                    book. It has survived not only five centuries, but also the leap into electronic typesetting,
+                                    remaining essentially unchanged. It was popularised in the 1960s with the release
+                                    of Letraset sheets containing Lorem Ipsum passages, and more recently with
+                                    desktop publishing software like Aldus PageMaker including versions of Lorem
+                                    Ipsum.</p>
+                            </div>
+                        </div> <!--/media-->
+                         <div class="media">
+                            <a href="#" class="pull-left">
+                                <img src="images/connections.png" class="media-object img-responsive">
+                            </a>
+                            <div class="media-body">
+                                <h2 class="media-heading">Connections</h2>
+                                 <p class="text-justify">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
+                                    Ipsum has been the industry's standard dummy text ever since the 1500s, when an
+                                    unknown printer took a galley of type and scrambled it to make a type specimen
+                                    book. It has survived not only five centuries, but also the leap into electronic typesetting,
+                                    remaining essentially unchanged. It was popularised in the 1960s with the release
+                                    of Letraset sheets containing Lorem Ipsum passages, and more recently with
+                                    desktop publishing software like Aldus PageMaker including versions of Lorem
+                                    Ipsum.</p>
+                            </div>
+                        </div> <!--/media-->
+                    </div>
+                </div>
+                  <div class="col-md-4">
+                        <div class="quk-contact">
+                    <h2 class="text-center">Quick Contacct</h2> 
+                    <form role="form">
+                        <div class="form-group">
+                            <label for="usr">Name: </label>
+                            <input type="text" class="form-control" placeholder="Name" id="usr">
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email: </label>
+                            <input type="email" class="form-control" placeholder="Email" id="email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="comment">Comment: </label>
+                            <textarea class="form-control" rows="5" id="comment"></textarea>
+                        </div>                            
+                            <button type="button" class="btn btn-danger form-control">Submit</button>
+                      
+                    </form>
+                        </div><!--/Quick contact-->
+                       <div class="list-group innovate-list">
+                        <a href="index.html" class="list-group-item"><span class="glyphicon glyphicon-home"></span> Home</a>
+                        <a href="about.html" class="list-group-item "><span class="glyphicon glyphicon-user"></span> About</a>
+                        <a href="innovate.html" class="list-group-item active"><span class="glyphicon glyphicon-map-marker"></span> Innovate</a>
+                        <a href="blog.html" class="list-group-item "><span class="	glyphicon glyphicon-tag"></span> Blog</a>
+                        <a href="contact.html" class="list-group-item "><span class="	glyphicon glyphicon-phone-alt"></span> Contact</a>
+                    </div>
+                </div>
+            </div>   <!--/row-->
+        </div> <!--/container-->
+        <!--/ Body-->
+        
+                <footer>
+            <p>Copyright &copy; 2016, <a href="#" class=""> Infinity Masud Rana</a></p>
+        </footer>
+ 
+    <!--Start Jquery and Bootrstrap Script-->
+     <script src="js/jquery.js"></script>
+    <script src="js/bootstrap.js"></script>
+        <script src="js/app.js"></script>
+    <!--End Jquery and Bootrstrap Script-->
+    </body>
+</html>
