@@ -1,0 +1,41 @@
+.owl-carousel .owl-controls{
+    position: absolute;
+    top: 50%;
+    margin-top: -30px;
+    width: 100%;
+    text-align: left;
+}
+.owl-carousel.owl-controls .owl-buttons{
+    
+}
+.owl-carousel .owl-controls .owl-buttons div{
+    display: inline;
+    font-size: 24px;
+    background: none;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.owl-carousel .owl-controls .owl-buttons div.owl-prev{
+ margin-left: 40px;
+}
+.owl-carousel .owl-controls .owl-buttons div.owl-next{
+  float: right;
+    margin-right: 40px;
+}
+.owl-carousel .owl-controls .owl-buttons div i{
+    border-radius: 50%;
+    border: 1px solid rgba(0,0,0,0.8);
+    width: 40px;
+    height: 40px;
+    padding: 6px;
+    text-align: center;
+    color: red;
+}
+.owl-carousel .owl-controls .owl-buttons div i.fa-angle-left{
+    
+}
+.owl-carousel .jm-theme .owl-controls .owl-buttons div i.fa-angle-right{
+   
+}
