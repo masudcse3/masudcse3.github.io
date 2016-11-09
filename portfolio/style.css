@@ -1,0 +1,610 @@
+/*! HTML5 Boilerplate v5.3.0 | MIT License | https://html5boilerplate.com/ */
+
+/*
+ * What follows is the result of much research on cross-browser styling.
+ * Credit left inline and big thanks to Nicolas Gallagher, Jonathan Neal,
+ * Kroc Camen, and the H5BP dev community and team.
+ */
+
+/* ==========================================================================
+   Base styles: opinionated defaults
+   ========================================================================== */
+
+html {
+    color: #222;
+    font-size: 1em;
+    line-height: 1.4;
+}
+
+/*
+ * Remove text-shadow in selection highlight:
+ * https://twitter.com/miketaylr/status/12228805301
+ *
+ * These selection rule sets have to be separate.
+ * Customize the background color to match your design.
+ */
+
+::-moz-selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+::selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+/*
+ * A better looking default horizontal rule
+ */
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
+
+/*
+ * Remove the gap between audio, canvas, iframes,
+ * images, videos and the bottom of their containers:
+ * https://github.com/h5bp/html5-boilerplate/issues/440
+ */
+
+audio,
+canvas,
+iframe,
+img,
+svg,
+video {
+    vertical-align: middle;
+}
+
+/*
+ * Remove default fieldset styles.
+ */
+
+fieldset {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+/*
+ * Allow only vertical resizing of textareas.
+ */
+
+textarea {
+    resize: vertical;
+}
+
+/* ==========================================================================
+   Browser Upgrade Prompt
+   ========================================================================== */
+
+.browserupgrade {
+    margin: 0.2em 0;
+    background: #ccc;
+    color: #000;
+    padding: 0.2em 0;
+}
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+.clear{
+    clear: both;
+}
+
+#slider {
+}
+
+#all {
+}
+
+#wordpress {
+}
+
+#ecommerce {
+}
+
+#wordpress-img {
+}
+
+#ecommerce-img {
+}
+
+#wordpress-img {
+}
+
+#ecommerce-img {
+}
+
+#wordpress-img {
+}
+
+#ecommerce-img {
+}
+
+#wordpress-img {
+}
+
+#ecommerce-img {
+}
+
+#test-carousel {
+}
+
+.header {
+    background: rgba(0,0,1,0.1);
+}
+
+.menu {
+  background: rgba(0,0,0,0.4); 
+    
+}
+
+.main-menu {
+}
+.banner{
+    
+    
+}
+
+.slider-1 h1, .slider-2 h1 {
+    top: 40%;
+    left: 35%;
+    position: absolute;
+    color: #f24545;
+    font-size: 48px;
+    font-family:  'Josefin Sans', sans-serif; 
+    background: rgba(0,0,0,0.1);
+    padding: 25px;
+   
+}
+
+
+.about {
+    margin-top: 0px;
+    background: rgba(0,0,0,0.1);
+}
+.about img{
+    margin-top: 60px;
+}
+.about h2, .about h3{
+    color: #70A3D2;
+    font-size: 36px;
+    font-family:  'Josefin Sans', sans-serif;
+    text-align: center;
+    border-bottom: 2px solid red;
+    margin-top: 60px;
+    text-transform: uppercase;
+    
+}
+.about p{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 18px;
+    padding: 5px;
+    color: #000000;
+    text-align: justify;
+}
+
+.about ul li{
+    font-size: 20px;
+    font-family:  'Josefin Sans', sans-serif;
+}
+.about ul li:hover{
+    color: #D60025;
+}
+
+.portfolio {
+    width: 100%;
+    margin-top: 50px;
+    
+    
+}
+.portfolio img{
+    float: left;
+    width: 25%;
+}
+.group-btn {
+    margin-bottom: 30px;
+    text-align: center;
+}
+.group-btn .button{
+    color: #FFF;
+    width: 200px;
+    height: 50px;
+    padding: 10px;
+    outline: none;
+    border: none;
+    background: rgba(0,0,0,0.9);
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 20px;
+    border-radius: 10px;
+}
+.group-btn .button:hover{
+    border: 1px solid rgba(0,0,0,0.9);
+    background: none;
+    color: rgba(0,0,0,0.9);
+    transition: all 0.6s;
+    border-radius: 20px;
+}
+.portfolio h2 {
+    color: #70A3D2;
+    font-size: 36px;
+    font-family:  'Josefin Sans', sans-serif;
+    text-align: center;
+    margin-bottom: 30px;
+    text-transform: uppercase; 
+    
+    
+}
+
+.widget {
+    background: rgba(0,0,0,0.7);
+    padding-top: 60px;
+    color: #FFF;
+    font-family:  'Josefin Sans', sans-serif;
+}
+.widget h4{
+    text-align: center;
+    font-size: 36px;
+}
+.widget p{
+    font-size: 18px;
+    padding: 10px;
+}
+.widget1 {
+}
+
+.fa.fa-map-marker {
+    color: #f24545;
+    
+}
+
+.fa.fa-envelope{
+    color: #BCCCAD;
+}
+
+.fa.fa-phone {
+    color: #EEB753;
+}
+.contact-icon{
+    margin-right: 20px;
+    
+}
+
+.widget2 {
+}
+
+.testimonial-item1 {
+}
+
+.widget3 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.social {
+}
+
+.social-icon {
+    text-align: center;
+    width: 50px;
+    height: 50px;
+    padding: 10px;
+    margin-right: 30px;
+    margin-top: 45px;
+    border-radius: 500px;
+    background: rgba(0,0,0,0.6);
+}
+.fa.fa-2x.fa-facebook{
+    color: #3B5998; 
+}
+.fa.fa-2x.fa-facebook:hover{
+    background: #3B5998;
+    transition: all 0.6s;
+    color: rgba(0,0,0,0.6);
+}
+.fa.fa-2x.fa-twitter{
+    color: #1DA1F2;
+}
+.fa.fa-2x.fa-twitter:hover{
+    background: #1DA1F2;;
+    transition: all 0.6s;
+    color: rgba(0,0,0,0.6);
+}
+
+
+.fa.fa-2x.fa-google-plus{
+    color: #DB4437
+}
+.fa.fa-2x.fa-google-plus:hover{
+    background: #DB4437;
+    transition: all 0.6s;
+    color: rgba(0,0,0,0.6);
+}
+ 
+
+.footer {
+    height: 60px;
+    background: #000;
+    color: #FFF;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 18px;
+    padding: 40px;
+    text-align: center;
+}
+
+.container-fluid {
+}
+
+
+#scrollUp {
+    bottom: 20px;
+    right: 20px;
+    padding: 10px 20px;
+    background: #555;
+    color: #fff;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    font-size: 20px;
+}
+#scrollUp:hover{
+    background: rgba(0,0,0,0.8);
+}
+
+
+
+
+
+/*=======================================================================
+Slicknav style sheet
+========================================================================*/
+.main-menu{
+    list-style: none;
+    text-align: center;
+    float: right;
+    margin-top: 20px;
+}
+.main-menu li{
+    float: left;
+    display: block;
+    padding: 12px;
+    border: 1px solid rgba(0,0,0,0.5);
+    margin-right: 10px;
+    border-radius: 5px;
+}
+.main-menu li:last-child{
+    margin-right: 60px;
+}
+.main-menu li:hover{
+    background: rgba(0,0,0,0.5);
+    transition: all 0.5s;
+}
+.main-menu li:hover > a{
+    color: #FFF;
+}
+
+.main-menu li a{
+    font-size: 18px;
+    font-family: 'Josefin Sans', sans-serif;
+    padding: 10px;
+    color: rgba(0,0,0,0.5);
+    text-decoration: none;
+    text-transform: uppercase;
+}
+.main-menu li a:hover{}
+.slicknav_menu {
+	display:none;
+}
+
+@media screen and (max-width: 40em) {
+	/* #menu is the original menu */
+	.js .main-menu {
+		display:none;
+	}
+	
+	.js .slicknav_menu {
+		display:block;
+	}
+}
+@media only screen and (max-width: 480px) {
+    .slider-1 h1, .slider-2 h1 {
+    top: 30%;
+    left: 5%;
+    font-size: 30px;
+   
+}
+    .group-btn .button{
+    margin-bottom: 10px;
+}
+    .footer{
+        font-size: 15px;
+    }
+}
+@media only screen and (max-width: 768px) {
+    .slider-1 h1, .slider-2 h1 {
+    top: 30%;
+    left: 15%;
+    font-size: 36px;
+   
+}
+}
+
+
+
+
+/* ==========================================================================
+   Helper classes
+   ========================================================================== */
+
+/*
+ * Hide visually and from screen readers
+ */
+
+.hidden {
+    display: none !important;
+}
+
+/*
+ * Hide only visually, but have it available for screen readers:
+ * http://snook.ca/archives/html_and_css/hiding-content-for-accessibility
+ */
+
+.visuallyhidden {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+}
+
+/*
+ * Extends the .visuallyhidden class to allow the element
+ * to be focusable when navigated to via the keyboard:
+ * https://www.drupal.org/node/897638
+ */
+
+.visuallyhidden.focusable:active,
+.visuallyhidden.focusable:focus {
+    clip: auto;
+    height: auto;
+    margin: 0;
+    overflow: visible;
+    position: static;
+    width: auto;
+}
+
+/*
+ * Hide visually and from screen readers, but maintain layout
+ */
+
+.invisible {
+    visibility: hidden;
+}
+
+/*
+ * Clearfix: contain floats
+ *
+ * For modern browsers
+ * 1. The space content is one way to avoid an Opera bug when the
+ *    `contenteditable` attribute is included anywhere else in the document.
+ *    Otherwise it causes space to appear at the top and bottom of elements
+ *    that receive the `clearfix` class.
+ * 2. The use of `table` rather than `block` is only necessary if using
+ *    `:before` to contain the top-margins of child elements.
+ */
+
+.clearfix:before,
+.clearfix:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+/* ==========================================================================
+   EXAMPLE Media Queries for Responsive Design.
+   These examples override the primary ('mobile first') styles.
+   Modify as content requires.
+   ========================================================================== */
+
+@media only screen and (min-width: 35em) {
+    /* Style adjustments for viewports that meet the condition */
+}
+
+@media print,
+       (-webkit-min-device-pixel-ratio: 1.25),
+       (min-resolution: 1.25dppx),
+       (min-resolution: 120dpi) {
+    /* Style adjustments for high resolution devices */
+}
+
+/* ==========================================================================
+   Print styles.
+   Inlined to avoid the additional HTTP request:
+   http://www.phpied.com/delay-loading-your-print-css/
+   ========================================================================== */
+
+@media print {
+    *,
+    *:before,
+    *:after,
+    *:first-letter,
+    *:first-line {
+        background: transparent !important;
+        color: #000 !important; /* Black prints faster:
+                                   http://www.sanbeiji.com/archives/953 */
+        box-shadow: none !important;
+        text-shadow: none !important;
+    }
+
+    a,
+    a:visited {
+        text-decoration: underline;
+    }
+
+    a[href]:after {
+        content: " (" attr(href) ")";
+    }
+
+    abbr[title]:after {
+        content: " (" attr(title) ")";
+    }
+
+    /*
+     * Don't show links that are fragment identifiers,
+     * or use the `javascript:` pseudo protocol
+     */
+
+    a[href^="#"]:after,
+    a[href^="javascript:"]:after {
+        content: "";
+    }
+
+    pre,
+    blockquote {
+        border: 1px solid #999;
+        page-break-inside: avoid;
+    }
+
+    /*
+     * Printing Tables:
+     * http://css-discuss.incutio.com/wiki/Printing_Tables
+     */
+
+    thead {
+        display: table-header-group;
+    }
+
+    tr,
+    img {
+        page-break-inside: avoid;
+    }
+
+    img {
+        max-width: 100% !important;
+    }
+
+    p,
+    h2,
+    h3 {
+        orphans: 3;
+        widows: 3;
+    }
+
+    h2,
+    h3 {
+        page-break-after: avoid;
+    }
+}
